@@ -1,0 +1,39 @@
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config --global credential.helper manager
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config credential.helper store
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git credential-manager
+Required command was not provided.
+
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config --global user.name "sathyasn46"
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config --global user.name
+sathyasn46
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config --global user.password
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git config --global --unset user.password
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git pull
+Already up to date.
+
+sathy@DESKTOP-FT5KFQJ MINGW64 ~/upskill/projects/javascript-repo (master)
+$ git push
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.96 KiB | 669.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sathyasn46/javascript-repo
+   624ca0e..a052ac5  master -> master

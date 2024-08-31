@@ -36,7 +36,7 @@ function greetUser(userName){
 
 //operators
 
-//Arithmetic
+//Arithmetic operators 6
     let x=10;
     let y=3;
     console.log(x+y);
@@ -45,31 +45,34 @@ function greetUser(userName){
     console.log(x/y);
     console.log(x%y);
     console.log(x**y);
-    //increment decrement
+    //increment decrement 2
     console.log(++x);
     console.log(x++);
 
-//Assignment
+//Assignment: 
     x = 3;
     x+=5;
+    +=, -+ , *=, /=, %=
 
-//comparison > < >= <= , !=
+comparison:
+    Relational:  > , < , >=, <= 
+    Equality: === , !==
 
-//Equality
+Equality
 
 //strict equality (type + Value)
 console.log('strict equality (type + Value)');
-console.log(1===1);
-console.log('1'===1);
-console.log(true===1);
+console.log(1===1); //true
+console.log('1'===1);   //false
+console.log(true===1);   //false
 
 //Lose equality ( only Value)
 console.log('Lose equality ( only Value)')
-console.log(1==1);
-console.log('1'==1);
-console.log(true==1);
+console.log(1==1); //true
+console.log('1'==1);  //true
+console.log(true==1);  //true
 
-//ternary
+ternary:
 
 let marks =70;
 let grade = marks> 80? 'Distinction': 'Pass';
@@ -98,11 +101,17 @@ console.log(true && false)
     console.log("Applicaton Refused:" + appRefused);
 
 
-    // Logical operators with Non-boolean values
+Logical operators with Non booleans:
+
+let userColor = null;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+
+console.log("currentColor: "+ currentColor);
 
 
 
-    // Falsy(false)
+ Falsy(false) values in logical expression:
     // undefined
     // null
     // 0
